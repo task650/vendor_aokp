@@ -151,6 +151,7 @@
   <apn carrier="rabo.plus" mcc="204" mnc="20" apn="rabo.plus" type="default,supl" />
   <apn carrier="Proximus MMS" mcc="206" mnc="01" apn="event.proximus.be" user="mms" password="mms" mmsc="http://mmsc.proximus.be/mms" mmsproxy="10.55.14.75" mmsport="8080" type="mms" />
   <apn carrier="Proximus Internet" mcc="206" mnc="01" apn="internet.proximus.be" type="default,supl" />
+  <apn carrier="MetroPCS LTE" mcc="310" mnc="260" extraid="6D" apn="fast.metropcs.com" user="" password="" authtype="0" server="" proxy="" port="" mmsc="http://metropcs.mmsmvno.com/mms/wapenc" mmsproxy="" mmsport="" type="default,mms,supl" preferapp="" />
   <apn carrier="Mobistar MMS" mcc="206" mnc="10" apn="mms.be" user="mobistar" password="mobistar" mmsc="http://mmsc.mobistar.be" mmsproxy="212.65.63.143" mmsport="8080" type="mms" />
   <apn carrier="Mobistar" mcc="206" mnc="10" apn="mworld.be" user="mobistar" password="mobistar" proxy="212.65.63.143" port="8080" type="default,supl" />
   <apn carrier="Telenet" mcc="206" mnc="10" apn="telenetwap.be" type="default,supl" />
