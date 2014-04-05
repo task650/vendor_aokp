@@ -1,7 +1,5 @@
-add_lunch_combo aokp_d2att-userdebug
+add_lunch_combo aokp_d2lte-userdebug
 add_lunch_combo aokp_hammerhead-userdebug
 add_lunch_combo aokp_jflte-userdebug
 add_lunch_combo aokp_mako-userdebug
 add_lunch_combo aokp_manta-userdebug
-
-
