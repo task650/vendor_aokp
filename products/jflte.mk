@@ -8,3 +8,7 @@ $(call inherit-product, vendor/aokp/configs/common.mk)
 
 PRODUCT_DEVICE := jflte
 PRODUCT_NAME := aokp_jflte
+
+# boot animation
+PRODUCT_COPY_FILES += \
+    vendor/aokp/prebuilt/bootanimation/bootanimation_1280_800.zip:system/media/bootanimation.zip
