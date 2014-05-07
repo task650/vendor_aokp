@@ -3,4 +3,5 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/hammerhead.mk \
     $(LOCAL_DIR)/jflte.mk \
     $(LOCAL_DIR)/lge_mako.mk \
-    $(LOCAL_DIR)/manta.mk 
+    $(LOCAL_DIR)/manta.mk \
+    $(LOCAL_DIR)/m8.mk 
