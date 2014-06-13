@@ -63,6 +63,7 @@ PRODUCT_COPY_FILES += \
     vendor/aokp/prebuilt/common/etc/init.local.rc:root/init.aokp.rc \
     vendor/aokp/prebuilt/common/etc/init.d/00start:system/etc/init.d/00start \
     vendor/aokp/prebuilt/common/etc/init.d/01sysctl:system/etc/init.d/01sysctl \
+    vendor/aokp/prebuilt/common/etc/init.d/50selinuxrelabel:system/etc/init.d/50selinuxrelabel \
     vendor/aokp/prebuilt/common/etc/sysctl.conf:system/etc/sysctl.conf \
     vendor/aokp/prebuilt/common/bin/sysinit:system/bin/sysinit
 
@@ -88,7 +89,7 @@ PRODUCT_PACKAGES += \
     ntfsfix \
     ntfs-3g
 
-# Stagefright FFMPEG plugin
+# Stagefright FFMPEG plugins
 PRODUCT_PACKAGES += \
     libstagefright_soft_ffmpegadec \
     libstagefright_soft_ffmpegvdec \
