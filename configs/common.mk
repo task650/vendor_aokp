@@ -36,7 +36,6 @@ PRODUCT_COPY_FILES += \
     vendor/aokp/prebuilt/common/media/audio/ringtones/Android.mp3:system/media/audio/ringtones/Android.mp3 \
     vendor/aokp/prebuilt/common/media/audio/ringtones/Digital.mp3:system/media/audio/ringtones/Digital.mp3 \
     vendor/aokp/prebuilt/common/media/audio/ringtones/IphoneSoundMerge.mp3:system/media/audio/ringtones/IphoneSoundMerge.mp3 \
-    vendor/aokp/prebuilt/common/media/audio/ringtones/SonarMerge.ogg:system/media/audio/ringtones/SonarMerge.mp3 \
     vendor/aokp/prebuilt/common/media/audio/ringtones/Magical.mp3:system/media/audio/ringtones/Magical.mp3 \
     vendor/aokp/prebuilt/common/media/audio/ringtones/Vertu.mp3:system/media/audio/ringtones/Vertu.mp3 \
     vendor/aokp/prebuilt/common/media/audio/ringtones/Xylophone.mp3:system/media/audio/ringtones/Xylophone.mp3 \
