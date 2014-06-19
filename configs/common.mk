@@ -28,6 +28,20 @@ PRODUCT_PACKAGES += \
     libcyanogen-dsp \
     audio_effects.conf 
 
+# Extras
+PRODUCT_COPY_FILES += \
+    vendor/aokp/prebuilt/common/media/audio/notifications/CyanMessage.ogg:system/media/audio/notifications/CyanMessage.ogg \
+    vendor/aokp/prebuilt/common/media/audio/notifications/CyanPing.ogg:system/media/audio/notifications/CyanPing.ogg \
+    vendor/aokp/prebuilt/common/media/audio/notifications/SMSreceived.ogg:system/media/audio/notifications/SMSreceived.ogg \
+    vendor/aokp/prebuilt/common/media/audio/ringtones/Android.mp3:system/media/audio/ringtones/Android.mp3 \
+    vendor/aokp/prebuilt/common/media/audio/ringtones/Digital.mp3:system/media/audio/ringtones/Digital.mp3 \
+    vendor/aokp/prebuilt/common/media/audio/ringtones/IphoneSoundMerge.mp3:system/media/audio/ringtones/IphoneSoundMerge.mp3 \
+    vendor/aokp/prebuilt/common/media/audio/ringtones/SonarMerge.ogg:system/media/audio/ringtones/SonarMerge.mp3 \
+    vendor/aokp/prebuilt/common/media/audio/ringtones/Magical.mp3:system/media/audio/ringtones/Magical.mp3 \
+    vendor/aokp/prebuilt/common/media/audio/ringtones/Vertu.mp3:system/media/audio/ringtones/Vertu.mp3 \
+    vendor/aokp/prebuilt/common/media/audio/ringtones/Xylophone.mp3:system/media/audio/ringtones/Xylophone.mp3 \
+    vendor/aokp/prebuilt/common/app/NovaLauncher.apk:system/app/NovaLauncher.apk
+
 ifeq ($(PRODUCT_GMS_CLIENTID_BASE),)
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.google.clientidbase=android-google
