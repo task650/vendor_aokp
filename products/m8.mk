@@ -35,4 +35,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
        PRIVATE_BUILD_DESC="1.54.401.5 CL325784 release-keys"
 
 PRODUCT_COPY_FILES += \
-    vendor/aokp/prebuilt/bootanimation/bootanimation_task650.zip:system/media/bootanimation.zip
+    vendor/aokp/prebuilt/bootanimation/bootanimation_task650_1080.zip:system/media/bootanimation.zip

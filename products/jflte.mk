@@ -11,4 +11,4 @@ PRODUCT_NAME := aokp_jflte
 
 # boot animation
 PRODUCT_COPY_FILES += \
-    vendor/aokp/prebuilt/bootanimation/bootanimation_task650.zip:system/media/bootanimation.zip
+    vendor/aokp/prebuilt/bootanimation/bootanimation_task650_1080.zip:system/media/bootanimation.zip
