@@ -19,7 +19,7 @@ PRODUCT_PACKAGES += \
     SwagPapers \
     Torch \
     TricksterMod \
-    UnicornPorn \
+    UnicornBeam \
     KitKatWhite
 
 # DSPManager
