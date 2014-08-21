@@ -39,6 +39,7 @@ PRODUCT_COPY_FILES += \
     vendor/aokp/prebuilt/common/media/audio/ringtones/Magical.mp3:system/media/audio/ringtones/Magical.mp3 \
     vendor/aokp/prebuilt/common/media/audio/ringtones/Vertu.mp3:system/media/audio/ringtones/Vertu.mp3 \
     vendor/aokp/prebuilt/common/media/audio/ringtones/Xylophone.mp3:system/media/audio/ringtones/Xylophone.mp3 \
+    vendor/aokp/prebuilt/common/media/audio/ringtones/Opening.mp3:system/media/audio/ringtones/Opening.mp3 \
     vendor/aokp/prebuilt/common/app/NovaLauncher.apk:system/app/NovaLauncher.apk
 
 ifeq ($(PRODUCT_GMS_CLIENTID_BASE),)
@@ -113,9 +114,9 @@ PRODUCT_PACKAGES += \
 
 # Default ringtone
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.config.ringtone=Scarabaeus.ogg \
-    ro.config.notification_sound=Antimony.ogg \
-    ro.config.alarm_alert=Scandium.ogg
+    ro.config.ringtone=Opening.mp3 \
+    ro.config.notification_sound=Thalitha.ogg \
+    ro.config.alarm_alert=Hassium.ogg
 
 PRODUCT_COPY_FILES += packages/wallpapers/LivePicker/android.software.live_wallpaper.xml:/system/etc/permissions/android.software.live_wallpaper.xml
 
