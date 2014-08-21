@@ -80,6 +80,11 @@ PRODUCT_COPY_FILES += \
     vendor/aokp/prebuilt/common/etc/sysctl.conf:system/etc/sysctl.conf \
     vendor/aokp/prebuilt/common/bin/sysinit:system/bin/sysinit
 
+# Bring in camera effects
+PRODUCT_COPY_FILES +=  \
+    vendor/aokp/prebuilt/common/media/LMprec_508.emd:system/media/LMprec_508.emd \
+    vendor/aokp/prebuilt/common/media/PFFprec_600.emd:system/media/PFFprec_600.emd
+
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
