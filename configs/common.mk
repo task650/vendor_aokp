@@ -1,4 +1,4 @@
-PRODUCT_BRAND ?= aokp
+PRODUCT_BRAND ?= task650
 
 SUPERUSER_EMBEDDED := true
 
@@ -244,34 +244,34 @@ PRODUCT_VERSION_MAINTENANCE = 0-RC0
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_VERSION_TAGS=release-keys USER=android-build BUILD_UTC_DATE=$(shell date +"%s")
 
 DATE = $(shell vendor/aokp/tools/getdate)
-AOKP_BRANCH=mm
+TASK650_BRANCH=mm
 
-ifneq ($(AOKP_BUILD),)
-    # AOKP_BUILD=<goo version int>/<build string>
+ifneq ($(TASK650_BUILD),)
+    # TASK650_BUILD=<goo version int>/<build string>
     PRODUCT_PROPERTY_OVERRIDES += \
         ro.goo.developerid=aokp \
         ro.goo.rom=aokp \
-        ro.goo.version=$(shell echo $(AOKP_BUILD) | cut -d/ -f1)
+        ro.goo.version=$(shell echo $(TASK650_BUILD) | cut -d/ -f1)
 
-    AOKP_VERSION=$(TARGET_PRODUCT)_$(AOKP_BRANCH)_$(shell echo $(AOKP_BUILD) | cut -d/ -f2)
+    TASK650_VERSION=$(TARGET_PRODUCT)_$(TASK650_BRANCH)_$(shell echo $(TASK650_BUILD) | cut -d/ -f2)
 else
-    ifeq ($(AOKP_BUILDTYPE),)
-        # AOKP_BUILDTYPE not defined
-	AOKP_BUILDTYPE := unofficial
+    ifeq ($(TASK650_BUILDTYPE),)
+        # TASK650_BUILDTYPE not defined
+	TASK650_BUILDTYPE := unofficial
     endif
 
-    AOKP_VERSION=$(TARGET_PRODUCT)_$(AOKP_BRANCH)_$(AOKP_BUILDTYPE)_$(DATE)
+    TASK650_VERSION=$(TARGET_PRODUCT)_$(TASK650_BRANCH)_$(TASK650_BUILDTYPE)_$(DATE)
 endif
 
-AOKP_DISPLAY_VERSION := $(AOKP_VERSION)
+TASK650_DISPLAY_VERSION := $(TASK650_VERSION)
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.aokp.version=$(AOKP_VERSION) \
-    ro.aokp.branch=$(AOKP_BRANCH) \
-    ro.aokp.device=$(AOKP_DEVICE) \
-    ro.aokp.releasetype=$(AOKP_BUILDTYPE) \
-    ro.modversion=$(AOKP_VERSION) \
-    ro.aokp.display.version=$(AOKP_DISPLAY_VERSION)
+    ro.task650.version=$(TASK650_VERSION) \
+    ro.task650.branch=$(TASK650_BRANCH) \
+    ro.task650.device=$(TASK650_DEVICE) \
+    ro.task650.releasetype=$(TASK650_BUILDTYPE) \
+    ro.modversion=$(TASK650_VERSION) \
+    ro.task650.display.version=$(TASK650_DISPLAY_VERSION)
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
 
