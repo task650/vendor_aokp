@@ -161,6 +161,7 @@ PRODUCT_PACKAGES += \
 # Custom CM packages
 PRODUCT_PACKAGES += \
     AudioFX \
+    CMAudioService \
     CMWallpapers \
     CMFileManager \
     CMSettingsProvider \
