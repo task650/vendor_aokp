@@ -173,6 +173,7 @@ PRODUCT_PACKAGES += \
     Launcher3 \
     LiveLockScreenService \
     LockClock \
+    ThemeManagerService \
     Trebuchet \
     WeatherProvider
 
