@@ -10,7 +10,8 @@ UI_PATH := vendor/aokp/prebuilt/common/media/audio/ui
 # Alarms
 PRODUCT_COPY_FILES += \
     $(ALARM_PATH)/CyanAlarm.ogg:system/media/audio/alarms/CyanAlarm.ogg \
-    $(ALARM_PATH)/NuclearLaunch.ogg:system/media/audio/alarms/NuclearLaunch.ogg
+    $(ALARM_PATH)/NuclearLaunch.ogg:system/media/audio/alarms/NuclearLaunch.ogg \
+    $(ALARM_PATH)/DubstepKill.ogg:system/media/audio/alarms/DubstepKill.ogg
 
 # Notifications
 PRODUCT_COPY_FILES += \
@@ -33,11 +34,19 @@ PRODUCT_COPY_FILES += \
     $(RINGTONE_PATH)/boosted/Rockin.ogg:system/media/audio/ringtones/Rockin.ogg
 else
 PRODUCT_COPY_FILES += \
+    $(RINGTONE_PATH)/679-Remix.ogg:system/media/audio/ringtones/679-Remix.ogg \
     $(RINGTONE_PATH)/Boxbeat.ogg:system/media/audio/ringtones/Boxbeat.ogg \
     $(RINGTONE_PATH)/CyanTone.ogg:system/media/audio/ringtones/CyanTone.ogg \
+    $(RINGTONE_PATH)/Cut-It-Remix.ogg:system/media/audio/ringtones/Cut-It-Remix.ogg \
+    $(RINGTONE_PATH)/DubstepKill.ogg:system/media/audio/ringtones/DubstepKill.ogg \
+    $(RINGTONE_PATH)/GalaxyNote5.ogg:system/media/audio/ringtones/GalaxyNote5.ogg \
+    $(RINGTONE_PATH)/GalaxyS6.ogg:system/media/audio/ringtones/GalaxyS6.ogg \
     $(RINGTONE_PATH)/Highscore.ogg:system/media/audio/ringtones/Highscore.ogg \
+    $(RINGTONE_PATH)/iphone.ogg:system/media/audio/ringtones/iphone.ogg \
     $(RINGTONE_PATH)/Lyon.ogg:system/media/audio/ringtones/Lyon.ogg \
+    $(RINGTONE_PATH)/Peaceful.ogg:system/media/audio/ringtones/Peaceful.ogg \
     $(RINGTONE_PATH)/Rockin.ogg:system/media/audio/ringtones/Rockin.ogg \
-    $(RINGTONE_PATH)/Sheep.mp3:system/media/audio/ringtones/Sheep.mp3
+    $(RINGTONE_PATH)/Sheep.mp3:system/media/audio/ringtones/Sheep.mp3 \
+    $(RINGTONE_PATH)/SimpleOffice.ogg:system/media/audio/ringtones/SimpleOffice.ogg \
     $(RINGTONE_PATH)/Yukaay.ogg:system/media/audio/ringtones/Yukaay.ogg
 endif
