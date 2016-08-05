@@ -247,7 +247,12 @@ DEVICE_PACKAGE_OVERLAYS += vendor/aokp/overlay/common
 
 PRODUCT_VERSION_MAJOR = 13
 PRODUCT_VERSION_MINOR = 0
-PRODUCT_VERSION_MAINTENANCE = 1
+ifeq ($(TARGET_VENDOR_SHOW_MAINTENANCE_VERSION),true)
+    PRODUCT_VERSION_MAINTENANCE := 1
+else
+    # 0 is ignored
+    PRODUCT_VERSION_MAINTENANCE := 0
+endif
 
 # Version information used on all builds
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_VERSION_TAGS=release-keys USER=android-build BUILD_UTC_DATE=$(shell date +"%s")
